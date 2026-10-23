@@ -6,8 +6,13 @@
 	objectVersion = 90;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A7FDAACC308B573900BDE555 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A7FDAACB308B573900BDE555 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* 抽一支運勢籤吧！.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "抽一支運勢籤吧！.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FDAACB308B573900BDE555 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -31,7 +36,9 @@
 			isa = PBXGroup;
 			children = (
 				000000000000000000000010 /* 抽一支運勢籤吧！ */,
+				A7FDAACB308B573900BDE555 /* README.md */,
 				000000000000000000000020 /* Products */,
+				A7FDAACD308B575C00BDE555 /* screenshots */,
 			);
 			sourceTree = "<group>";
 		};
@@ -41,6 +48,13 @@
 				000000000000000000000120 /* 抽一支運勢籤吧！.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A7FDAACD308B575C00BDE555 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +116,7 @@
 		000000000000000140000000 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				A7FDAACC308B573900BDE555 /* README.md in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
